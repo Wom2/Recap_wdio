@@ -14,7 +14,7 @@ class DynamicloadPage extends Page {
     get example2 () {
         return $('//*[@id="content"]/div/a[2]');
     }
-    open() {
+    open () {
         return super.open('dynamic_loading');
     }
 }
